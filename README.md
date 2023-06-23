@@ -10,7 +10,7 @@ docker build -t lidkserve -f Dockerfile .
 
 Run it
 
-````bash
+```bash
 docker run --rm -p 8080:8080 -v `pwd`/models:/mnt/models lidkserve:latest
 ```
 
